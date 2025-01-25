@@ -1,0 +1,1 @@
+Most of this is from online material that I researched and followed along with, this is not entirely my own work and do not believe it to be. All of the code was typed up by me as I followed articles and youtube videos to better learn and understand these malware topics. This repo includes basic scripting malware like a keylogger to Windows exploits and ransomware.
