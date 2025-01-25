@@ -1,0 +1,10 @@
+C to Rust things to Remember:
+	C:            Rust:
+	FALSE    == false as i32 
+	NULL     == ptr::null_mut()
+	sizeof() == <buffer>.len()
+	LPVOID buffer (writeprocmem) == <buffer>.as_ptr as _
+	lpStartAddress == Some(std::mem::transmute(<buffer>)) ; you have to transmute the buffer to a different type taken care of by the transmute function and it needs to be of type Option
+
+Casting in rust uses the 'as' keyword
+	ex: false as i32

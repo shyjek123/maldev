@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sebas\\source\\repos\\Malware\\C\\quick_docs\\Check_Debugger\\check_technique2\\solution\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{173CE440-B78C-4294-8CEE-434FA1A0BC57}|beingDbg\\beingDbg.vcxproj|C:\\Users\\sebas\\source\\repos\\Malware\\C\\quick_docs\\Check_Debugger\\check_technique2\\solution\\beingDbg\\check.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{173CE440-B78C-4294-8CEE-434FA1A0BC57}|beingDbg\\beingDbg.vcxproj|solutionrelative:beingDbg\\check.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{173CE440-B78C-4294-8CEE-434FA1A0BC57}|beingDbg\\beingDbg.vcxproj|C:\\Users\\sebas\\source\\repos\\Malware\\C\\quick_docs\\Check_Debugger\\check_technique2\\solution\\beingDbg\\headers.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{173CE440-B78C-4294-8CEE-434FA1A0BC57}|beingDbg\\beingDbg.vcxproj|solutionrelative:beingDbg\\headers.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "headers.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\source\\repos\\Malware\\C\\quick_docs\\Check_Debugger\\check_technique2\\solution\\beingDbg\\headers.h",
+              "RelativeDocumentMoniker": "beingDbg\\headers.h",
+              "ToolTip": "C:\\Users\\sebas\\source\\repos\\Malware\\C\\quick_docs\\Check_Debugger\\check_technique2\\solution\\beingDbg\\headers.h",
+              "RelativeToolTip": "beingDbg\\headers.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-06-18T00:08:28.131Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "check.c",
+              "DocumentMoniker": "C:\\Users\\sebas\\source\\repos\\Malware\\C\\quick_docs\\Check_Debugger\\check_technique2\\solution\\beingDbg\\check.c",
+              "RelativeDocumentMoniker": "beingDbg\\check.c",
+              "ToolTip": "C:\\Users\\sebas\\source\\repos\\Malware\\C\\quick_docs\\Check_Debugger\\check_technique2\\solution\\beingDbg\\check.c",
+              "RelativeToolTip": "beingDbg\\check.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-06-17T23:29:59.478Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

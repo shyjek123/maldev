@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sebas\\source\\repos\\C and C\u002B\u002B\\Offensive_C\\process injection\\process_hollowing\\procHollow\\hollow\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEC93F5-CEB6-4149-BEA9-F6FB90AE58A5}|hollow_vs\\hollow_vs.vcxproj|C:\\Users\\sebas\\source\\repos\\C and C\u002B\u002B\\Offensive_C\\process injection\\process_hollowing\\procHollow\\hollow\\hollow_vs\\hollow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BAEC93F5-CEB6-4149-BEA9-F6FB90AE58A5}|hollow_vs\\hollow_vs.vcxproj|solutionrelative:hollow_vs\\hollow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEC93F5-CEB6-4149-BEA9-F6FB90AE58A5}|hollow_vs\\hollow_vs.vcxproj|C:\\Users\\sebas\\source\\repos\\C and C\u002B\u002B\\Offensive_C\\process injection\\process_hollowing\\procHollow\\hollow\\hollow_vs\\hollow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BAEC93F5-CEB6-4149-BEA9-F6FB90AE58A5}|hollow_vs\\hollow_vs.vcxproj|solutionrelative:hollow_vs\\hollow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BAEC93F5-CEB6-4149-BEA9-F6FB90AE58A5}|hollow_vs\\hollow_vs.vcxproj|C:\\Users\\sebas\\source\\repos\\C and C\u002B\u002B\\Offensive_C\\process injection\\process_hollowing\\procHollow\\hollow\\hollow_vs\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BAEC93F5-CEB6-4149-BEA9-F6FB90AE58A5}|hollow_vs\\hollow_vs.vcxproj|solutionrelative:hollow_vs\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "hollow.cpp",
+              "DocumentMoniker": "C:\\Users\\sebas\\source\\repos\\C and C\u002B\u002B\\Offensive_C\\process injection\\process_hollowing\\procHollow\\hollow\\hollow_vs\\hollow.cpp",
+              "RelativeDocumentMoniker": "hollow_vs\\hollow.cpp",
+              "ToolTip": "C:\\Users\\sebas\\source\\repos\\C and C\u002B\u002B\\Offensive_C\\process injection\\process_hollowing\\procHollow\\hollow\\hollow_vs\\hollow.cpp",
+              "RelativeToolTip": "hollow_vs\\hollow.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-07T15:53:34.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\sebas\\source\\repos\\C and C\u002B\u002B\\Offensive_C\\process injection\\process_hollowing\\procHollow\\hollow\\hollow_vs\\main.cpp",
+              "RelativeDocumentMoniker": "hollow_vs\\main.cpp",
+              "ToolTip": "C:\\Users\\sebas\\source\\repos\\C and C\u002B\u002B\\Offensive_C\\process injection\\process_hollowing\\procHollow\\hollow\\hollow_vs\\main.cpp",
+              "RelativeToolTip": "hollow_vs\\main.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-07T15:53:51.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "hollow.h",
+              "DocumentMoniker": "C:\\Users\\sebas\\source\\repos\\C and C\u002B\u002B\\Offensive_C\\process injection\\process_hollowing\\procHollow\\hollow\\hollow_vs\\hollow.h",
+              "RelativeDocumentMoniker": "hollow_vs\\hollow.h",
+              "ToolTip": "C:\\Users\\sebas\\source\\repos\\C and C\u002B\u002B\\Offensive_C\\process injection\\process_hollowing\\procHollow\\hollow\\hollow_vs\\hollow.h",
+              "RelativeToolTip": "hollow_vs\\hollow.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-07-01T14:39:48.483Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

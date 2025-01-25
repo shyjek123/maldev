@@ -1,0 +1,17 @@
+[package]
+name = "shellcode"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.windows]
+version = "0.58.0"
+features = [
+    "Data_Xml_Dom",
+    "Win32_Foundation",
+    "Win32_Security",
+    "Win32_System_Threading",
+    "Win32_UI_WindowsAndMessaging",
+]
+[dependencies]
+kernel32-sys = "0.2.2"
+winapi = {version = "0.3.9", features = ["winnt"] }

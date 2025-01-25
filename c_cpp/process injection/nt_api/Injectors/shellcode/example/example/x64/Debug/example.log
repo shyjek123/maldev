@@ -1,0 +1,10 @@
+﻿  injection.c
+C:\Users\sebas\source\repos\Malware\C\nt_api\Injectors\shellcode\example\injection.c(53,23): warning C4312: 'type cast': conversion from 'const DWORD' to 'HANDLE' of greater size
+C:\Users\sebas\source\repos\Malware\C\nt_api\Injectors\shellcode\example\injection.c(79,67): warning C4090: 'function': different 'const' qualifiers
+C:\Users\sebas\source\repos\Malware\C\nt_api\Injectors\shellcode\example\injection.c(93,63): warning C4090: 'function': different 'const' qualifiers
+C:\Users\sebas\source\repos\Malware\C\nt_api\Injectors\shellcode\example\injection.c(114,64): warning C4090: 'function': different 'const' qualifiers
+  main.c
+C:\Users\sebas\source\repos\Malware\C\nt_api\Injectors\shellcode\example\main.c(52,40): warning C4090: 'function': different 'const' qualifiers
+  Generating Code...
+  LINK : C:\Users\sebas\source\repos\Malware\C\nt_api\Injectors\shellcode\example\x64\Debug\example.exe not found or not built by the last incremental link; performing full link
+  example.vcxproj -> C:\Users\sebas\source\repos\Malware\C\nt_api\Injectors\shellcode\example\x64\Debug\example.exe

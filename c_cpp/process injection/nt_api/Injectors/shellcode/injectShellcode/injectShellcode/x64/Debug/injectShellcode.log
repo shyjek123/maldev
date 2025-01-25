@@ -1,0 +1,9 @@
+﻿  procInjector.c
+C:\Users\sebas\source\repos\Malware\C\nt_api\Injectors\shellcode\procInjector.c(31,25): warning C4312: 'type cast': conversion from 'const DWORD' to 'HANDLE' of greater size
+C:\Users\sebas\source\repos\Malware\C\nt_api\Injectors\shellcode\procInjector.c(37,3): warning C4047: 'return': 'BOOL' differs in levels of indirection from 'void *'
+C:\Users\sebas\source\repos\Malware\C\nt_api\Injectors\shellcode\procInjector.c(62,56): warning C4090: 'function': different 'const' qualifiers
+C:\Users\sebas\source\repos\Malware\C\nt_api\Injectors\shellcode\procInjector.c(77,46): warning C4090: 'function': different 'const' qualifiers
+C:\Users\sebas\source\repos\Malware\C\nt_api\Injectors\shellcode\procInjector.c(104,44): warning C4090: 'function': different 'const' qualifiers
+C:\Users\sebas\source\repos\Malware\C\nt_api\Injectors\shellcode\procInjector.c(115,11): warning C4101: 'hThread': unreferenced local variable
+C:\Users\sebas\source\repos\Malware\C\nt_api\Injectors\shellcode\procInjector.c(120,11): warning C4101: 'hProcess': unreferenced local variable
+  injectShellcode.vcxproj -> C:\Users\sebas\source\repos\Malware\C\nt_api\Injectors\shellcode\injectShellcode\x64\Debug\injectShellcode.exe

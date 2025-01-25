@@ -1,0 +1,3 @@
+﻿  inject.c
+C:\Users\sebas\source\repos\Malware\C\sys_calls\direct\direct_injector\inject.c(33,25): warning C4312: 'type cast': conversion from 'DWORD' to 'HANDLE' of greater size
+  direct_injector.vcxproj -> C:\Users\sebas\source\repos\Malware\C\sys_calls\direct\direct_injector\x64\Debug\direct_injector.exe
