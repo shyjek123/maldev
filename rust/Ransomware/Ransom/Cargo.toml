@@ -1,0 +1,12 @@
+[package]
+name = "ransomware"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ransomware_utils = {path = "C:/Users/sebas/source/repos/Rust/Offensive_Rust/ransomware_utils"}
+clap = { version = "4.5.19", features = ["derive"] }
+p256 = "*"
+chacha20 = "*"
+base64ct = "*"
+walkdir = "2.5.0"

@@ -1,1 +1,0 @@
-C:\Users\sebas\source\repos\Rust\Offensive_Rust\RAT\func_scripts\take_screenshot\target\debug\take_screenshot.exe: C:\Users\sebas\source\repos\Rust\Offensive_Rust\RAT\func_scripts\take_screenshot\src\main.rs

@@ -1,0 +1,18 @@
+[package]
+name = "ransomware_utils"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chacha20 = "*"
+chacha20poly1305 = "*"
+clap = {version = "*", features = ["derive"]}
+mimalloc = "*"
+p256 = { version = "*", features = ["ecdh", "arithmetic", "pem"]}
+rand_chacha = "*"
+sha2 = "*"
+walkdir = "*"
+byteorder = "*"
+rand = "*"
+hkdf = "*"
+winapi = { version = "*", features = ["winuser"] }

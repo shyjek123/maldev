@@ -1,0 +1,1 @@
+C:\Users\sebas\source\repos\Rust\Offensive_Rust\Ransomware\Generate\ Key\ Pair\target\release\gen_keys.exe: C:\Users\sebas\source\repos\Rust\Offensive_Rust\Ransomware\Generate\ Key\ Pair\src\main.rs C:\Users\sebas\source\repos\Rust\Offensive_Rust\ransomware_utils\src\lib.rs
