@@ -1,3 +1,0 @@
-C:/Users/sebas/source/repos/C and C++/Offensive_C/keylogger/cmake-build-debug/CMakeFiles/keylogger.dir
-C:/Users/sebas/source/repos/C and C++/Offensive_C/keylogger/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/sebas/source/repos/C and C++/Offensive_C/keylogger/cmake-build-debug/CMakeFiles/rebuild_cache.dir

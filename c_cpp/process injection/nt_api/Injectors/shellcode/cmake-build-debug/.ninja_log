@@ -1,4 +1,0 @@
-# ninja log v6
-11	2076	7477605053627675	CMakeFiles/shellcode.dir/example/main.c.obj	a799e07e33214eb8
-41	1479	7477606064124648	CMakeFiles/shellcode.dir/procInjector.c.obj	313634e7e377d2b6
-34	2384	7477606064057489	CMakeFiles/shellcode.dir/main.c.obj	59670ede59be56e5
